@@ -1,0 +1,33 @@
+[0.057s] Invoking command in '/home/hemraj/ros2_ws/build/octomap_server': /usr/bin/cmake /home/hemraj/ros2_ws/src/octomap_mapping/octomap_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hemraj/ros2_ws/install/octomap_server
+[0.505s] -- The C compiler identification is GNU 11.4.0
+[0.506s] -- The CXX compiler identification is GNU 11.4.0
+[0.509s] -- Detecting C compiler ABI info
+[0.622s] -- Detecting C compiler ABI info - done
+[0.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.636s] -- Detecting C compile features
+[0.641s] -- Detecting C compile features - done
+[0.642s] -- Detecting CXX compiler ABI info
+[0.768s] -- Detecting CXX compiler ABI info - done
+[0.782s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.782s] -- Detecting CXX compile features
+[0.783s] -- Detecting CXX compile features - done
+[0.804s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.805s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.805s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.805s]   CMake did not find one.
+[0.805s] 
+[0.805s]   Could not find a package configuration file provided by "catkin" with any
+[0.805s]   of the following names:
+[0.805s] 
+[0.805s]     catkinConfig.cmake
+[0.805s]     catkin-config.cmake
+[0.805s] 
+[0.805s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.805s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.805s]   provides a separate development package or SDK, be sure it has been
+[0.805s]   installed.
+[0.806s] 
+[0.806s] [0m
+[0.806s] -- Configuring incomplete, errors occurred!
+[0.806s] See also "/home/hemraj/ros2_ws/build/octomap_server/CMakeFiles/CMakeOutput.log".
+[0.809s] Invoked command in '/home/hemraj/ros2_ws/build/octomap_server' returned '1': /usr/bin/cmake /home/hemraj/ros2_ws/src/octomap_mapping/octomap_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hemraj/ros2_ws/install/octomap_server

@@ -1,0 +1,1 @@
+Invoking command in '/home/hemraj/ros2_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hemraj/ros2_ws/src/rtabmap_msgs -DCMAKE_INSTALL_PREFIX=/home/hemraj/ros2_ws/install/rtabmap_msgs

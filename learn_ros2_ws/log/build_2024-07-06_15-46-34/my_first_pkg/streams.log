@@ -1,0 +1,62 @@
+[0.021s] Invoking command in '/home/hemraj/learn_ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=/home/hemraj/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/hemraj/learn_ros2_ws/src/my_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hemraj/learn_ros2_ws/install/my_first_pkg
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.194s] -- Detecting C compiler ABI info
+[0.291s] -- Detecting C compiler ABI info - done
+[0.303s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.303s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.429s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.633s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.709s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.746s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.852s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.861s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.862s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hemraj/learn_ros2_ws/src/my_first_pkg/include>
+[0.862s] -- Configured cppcheck exclude dirs and/or files: 
+[0.872s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.872s] -- Configured cpplint exclude dirs and/or files: 
+[0.874s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.877s] -- Added test 'lint_cmake' to check CMake code style
+[0.879s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.888s] -- Added test 'uncrustify' to check C / C++ code style
+[0.889s] -- Configured uncrustify additional arguments: 
+[0.890s] -- Added test 'xmllint' to check XML markup files
+[0.892s] -- Configuring done
+[0.898s] -- Generating done
+[0.899s] -- Build files have been written to: /home/hemraj/learn_ros2_ws/build/my_first_pkg
+[0.905s] Invoked command in '/home/hemraj/learn_ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=/home/hemraj/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/hemraj/learn_ros2_ws/src/my_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hemraj/learn_ros2_ws/install/my_first_pkg
+[0.908s] Invoking command in '/home/hemraj/learn_ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=/home/hemraj/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/hemraj/learn_ros2_ws/build/my_first_pkg -- -j6 -l6
+[0.973s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.009s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.077s] [100%] Built target my_node
+[1.092s] Invoked command in '/home/hemraj/learn_ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=/home/hemraj/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/hemraj/learn_ros2_ws/build/my_first_pkg -- -j6 -l6
+[1.140s] Invoking command in '/home/hemraj/learn_ros2_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=/home/hemraj/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/hemraj/learn_ros2_ws/build/my_first_pkg
+[1.150s] -- Install configuration: ""
+[1.151s] -- Execute custom install script
+[1.152s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/lib/my_first_pkg/my_node
+[1.167s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg//launch/display.launch.py
+[1.179s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg//launch/gazebo.launch.py
+[1.193s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg//urdf/my_robot.urdf
+[1.205s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg//rviz/config.rviz
+[1.218s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[1.230s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[1.242s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[1.256s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[1.268s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[1.280s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[1.293s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[1.304s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[1.316s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[1.328s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[1.340s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/package.dsv
+[1.352s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[1.365s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[1.378s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[1.393s] -- Symlinking: /home/hemraj/learn_ros2_ws/install/my_first_pkg/share/my_first_pkg/package.xml
+[1.408s] Invoked command in '/home/hemraj/learn_ros2_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=/home/hemraj/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/hemraj/learn_ros2_ws/build/my_first_pkg

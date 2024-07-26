@@ -1,0 +1,2 @@
+Invoking command in '/home/hemraj/learn_ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/home/hemraj/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/hemraj/learn_ros2_ws/build/my_package -- -j6 -l6
+Invoked command in '/home/hemraj/learn_ros2_ws/build/my_package' returned '2': CMAKE_PREFIX_PATH=/home/hemraj/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/hemraj/learn_ros2_ws/build/my_package -- -j6 -l6

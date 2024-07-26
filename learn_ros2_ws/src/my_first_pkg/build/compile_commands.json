@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/hemraj/learn_ros2_ws/src/my_first_pkg/build",
+  "command": "/usr/bin/c++  -I/home/hemraj/learn_ros2_ws/src/my_first_pkg/include -g -Wall -Wextra -Wpedantic -o CMakeFiles/my_node.dir/src/my_node.cpp.o -c /home/hemraj/learn_ros2_ws/src/my_first_pkg/src/my_node.cpp",
+  "file": "/home/hemraj/learn_ros2_ws/src/my_first_pkg/src/my_node.cpp"
+}
+]

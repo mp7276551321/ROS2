@@ -1,0 +1,2 @@
+Invoking command in '/home/hemraj/ros2_ws/build/octomap_server': /usr/bin/cmake /home/hemraj/ros2_ws/src/octomap_mapping/octomap_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hemraj/ros2_ws/install/octomap_server
+Invoked command in '/home/hemraj/ros2_ws/build/octomap_server' returned '1': /usr/bin/cmake /home/hemraj/ros2_ws/src/octomap_mapping/octomap_server -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hemraj/ros2_ws/install/octomap_server
